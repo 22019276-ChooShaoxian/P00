@@ -67,5 +67,15 @@ public class CalculatorTest {
 		assertEquals(actual,expected);
 		
 	}
+	@Test
+	public void testExpo() {
+		int a = 2;
+		int b = 3;
+		
+		Calculator cal = new Calculator();
+		int actual = cal.expo(a, b);
+		int expected = 8;
+		assertEquals(actual,expected);
+	}
 
 }
